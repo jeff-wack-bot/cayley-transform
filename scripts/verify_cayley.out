@@ -1,0 +1,32 @@
+[PASS] 1a  (1+ix)/(1-ix) = exp(2i arctan x): max err = 3.72e-16
+[PASS] 1b  |c(x)| = 1 on the real line: max err = 4.44e-16
+[PASS] 1c  Im x > 0  <=>  |c(x)| < 1  (c maps UHP onto the unit disk): max err = 0.00e+00
+[PASS] 2   chi(R(a)z)=e^{2ia}chi(z), chi(-z)=chi(z), chi=(t+i)/(t-i) with t=z1/z2: max err = 4.58e-16
+[PASS] 3a  C SL(2,R) C^-1 = SU(1,1) = {[[a,b],[b*,a*]]}; rotations diagonal: max err = 2.84e-14
+[PASS] 3b  C maps Im q<0 into unit disk: max err = 0.00e+00
+[PASS] 3c  rotation by al acts on disk coordinate w=(q+i)/(q-i) as w -> e^{2i al} w: max err = 3.69e-16
+[PASS] 4a  squeezed vacuum = exp(-kappa x^2/2), kappa=(1+c)/(1-c), c=e^{i th}tanh r (Cayley): max err = 2.22e-15
+[PASS] 4b  rotation exp(-i phi N): c -> e^{-2i phi} c (double angle): max err = 3.75e-14
+[PASS] 5a  eig(Ad) = (1+lam T/2)/(1-lam T/2); stable -> |.|<1: max err = 8.88e-16
+[PASS] 5b  Gd(z)=G(s) at z=(1+sT/2)/(1-sT/2); jw-axis phase = 2 arctan(OmT/2): max err = 3.64e-15
+[PASS] 5c  CT Lyapunov = DT Stein gramians; Hankel singular values equal: max err = 8.20e-15
+[PASS] 5d  Hamiltonian H (JH symmetric) -> Cayley(H) symplectic: max err = 1.34e-15
+[PASS] 5e  stabilizing Riccati solution identical from H (lhp) and Cayley(H) (unit disk): max err = 1.14e-14
+[PASS] 6   Crank-Nicolson unitary; eigenphase = -2 arctan(E dt/2) (Tustin warping): max err = 4.38e-15
+[PASS] 7a  S=(1-iK)/(1+iK), K=pi W^T(E-H)^-1 W, equals Blaschke prod (E-z*)/(E-z) over H-i pi WW^T: max err = 4.80e-13
+[PASS] 7b  phase of S winds -(number of resonances) times (each resonance: delta += pi): max err = 6.51e-03
+[PASS] 8a  Gamma=(z-1)/(z+1): |Gamma|=tanh(d/2), VSWR = exp(d(z,1)): max err = 1.24e-14
+[PASS] 8b  lossless line: Gamma_in = Gamma_L e^{-2i beta l} (double angle): max err = 4.48e-16
+[PASS] 8c  power transfer 4RsRL/|Zs+ZL|^2 = sech^2(d(ZL, Zs*)/2): max err = 5.55e-16
+[PASS] 9   circular ratio E_L/E_R = chi; inverse stereographic -> Stokes; rotator -> e^{2ia}: max err = 4.34e-14
+[PASS] 10  (I+G)(I-G)^-1 with Gibbs vector n tan(t/2) = rotation by t about n: max err = 3.81e-15
+[PASS] 11  KLMTV filter all-pass (1+iK)/(1-iK) = two Blaschke factors in s=Om^2: max err = 4.45e-16
+[PASS] 12  1-|w|^2 = 4 Im z/|z+i|^2 ; I - S^H S = 2 (Z+I)^-H (Z+Z^H)(Z+I)^-1: max err = 1.36e-12
+[PASS] 13  wave digital filter: reflectance of C -> z^-1, L -> -z^-1 (two Cayley maps cancel): max err = 3.55e-16
+[PASS] 14  H = i(1-U)(1+U)^-1 Hermitian for U in CUE; level density = Cauchy 1/(pi(1+E^2)) (KS stat): max err = 2.98e-03
+[PASS] 15  v = 2w/(1+w^2) with w = tanh(xi/2); Doppler k = (1+w)/(1-w) = e^xi (relative; sqrt((1+v)/(1-v)) loses digits as v->1): max err = 4.55e-12
+[PASS] 16  2 arctan(x/2) - x = -x^3/12 + O(x^5): max err = 1.25e-02
+[PASS] 17  Robin wall phi(0)=lam phi'(0): out/in = -(1+i lam k)/(1-i lam k): max err = 2.04e-15
+[PASS] 18  SLH one-mode cavity: Xi(s) = 1 - kappa/(s+kappa/2) = (s-kappa/2)/(s+kappa/2), |Xi(i om)|=1: max err = 2.48e-16
+
+30/30 checks passed
